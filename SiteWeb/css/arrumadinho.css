@@ -1,0 +1,279 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.conteudo {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    display: flex;
+    background-image: url(../IMG/Fundo\ de\ cima.svg);
+    max-height: 15rem;
+}
+
+header picture img {
+    margin-top: 5rem;
+    margin-left: 4rem;
+    width: 21rem;
+}
+
+header div {
+    padding: 1rem;
+    font-size: 3rem;
+    font-family: 'Archivo';
+    color: #3B232F;
+    margin-top: 10rem;
+}
+
+header div ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header div ul li {
+    padding: 2rem;
+    margin-top: -2rem;
+}
+
+header div ul a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-family: 'Archivo';
+    color: #3B232F;
+    font-size: 3rem;
+}
+
+/* Main da página 1 */
+
+.pagina1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../IMG/fundo\ pagina\ 1.svg);
+    height: 50.4rem;
+}
+
+.pagina1 div {
+    width: 60%;
+}
+
+.pagina1 div h1 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-size: 4.2rem;
+    margin-top: 10rem;
+    font-family: 'Aclonica';
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #003396;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagina1 h1 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-size: 7rem;
+    margin-top: 6rem;
+    font-family: 'Aclonica';
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #003396;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main das paginas 2, 3 e 4 */
+
+.paginas234 {
+    background-color: #FFC2E1D9;
+    display: flex;
+    flex-direction: column;
+}
+
+.paginas234 h1 {
+    font-size: 5.5rem;
+    color: white;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #003396;
+    font-family: 'Aclonica';
+    text-align: center;
+}
+
+.paginas234 picture {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.paginas234 picture img {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    width: 30rem;
+}
+
+.paginas234 picture div img {
+    margin-top: 7rem;
+    margin-left: 1.5rem;
+    width: 52rem;
+}
+
+.paginas234 picture div p {
+    font-family: 'Archivo';
+    color: #3B232F;
+    font-size: 5.1rem;
+    margin-left: 1.5rem;
+}
+
+.paginas234 picture div a {
+    font-family: 'Archivo';
+    color: #3B232F;
+    font-size: 5rem;
+    margin-left: 1.5rem;
+    text-decoration: none;
+}
+
+/* Main páginas 5, 6, 7, 8, 9 e 10 */
+
+.paginas5a10 {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../IMG/sidetracked\ fundo.svg);
+    height: 50.4rem;
+}
+
+.paginas5a10 .titulo5a10 {
+    margin-left: 11rem;
+    margin-top: 1rem;
+    font-size: 5.5rem;
+    color: white;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #003396;
+    font-family: 'Aclonica';
+    text-align: center;
+}
+
+.paginas5a10 nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.paginas5a10 nav div {
+    width: 40%;
+    margin-top: 3.7rem;
+    margin-left: 7rem;
+}
+
+.paginas5a10 nav section {
+    margin-top: 3rem;
+    margin-left: -1.5rem;
+}
+
+.paginas5a10 nav picture {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+}
+
+#infos {
+    width: 80%;
+    margin-top: 0.5rem;
+    margin-left: -1rem;
+    font-size: 5rem;
+    font-family: 'Aclonica';
+    text-align: center;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #003396;
+    color: white;
+}
+
+.paginas5a10 nav picture h1 {
+    width: 27%;
+    height: 27%;
+    justify-content: center;
+    font-size: 5rem;
+    font-family: 'Aclonica';
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #003396;
+    color: white;
+}
+
+.paginas5a10 nav div picture img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 1rem;
+}
+
+.paginas5a10 nav div picture p {
+    font-size: 2rem;
+    font-family: 'Aclonica';
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #003396;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 1rem;
+    margin-left: -12.5rem;
+}
+
+/* Footer */
+
+footer {
+    background-image: url(../IMG/Fundo\ de\ baixo.svg);
+    width: 100%;
+    height: 16rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+footer h1 {
+    padding: 1.5rem;
+    background-color: white;
+}
+
+/* Fontes */
+
+@font-face {
+    font-family: 'Aclonica';
+    src: url(../Fontes/Aclonica-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ABeeZee';
+    src: url(../Fontes/ABeeZee-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url(../Fontes/archivo-narrow-regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
